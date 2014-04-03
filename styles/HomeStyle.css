@@ -1,3 +1,26 @@
 body{
-	background:url("../resources/images/PlanckBgr.jpg") repeat;
+	margin:0px;
+	background:url("../resources/images/InfoWood.jpg") repeat;
 }
+
+/*Header style*/
+#home_header{
+	height:100px;
+	width:100%;
+	background:rgba(0,0,0,0.4);
+	border-bottom:1px solid rgba(0,0,0,0.4);
+	padding-top:20px;
+}
+
+#home_header h1{
+	display:block;
+	margin:0px 400px 0px;
+	color:#cccccc;
+	margin-top:0px;
+	font:60px arial;
+}
+
+#home_header h1:hover{
+	color:white;
+}
+/*End of header style*/
