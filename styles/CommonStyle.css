@@ -1,0 +1,6 @@
+/*Contains all the style elements that pages have in common (e.g. the background), it should be called in all the pages*/
+
+body{
+	margin:0px;
+	background:url("../resources/images/InfoWood.jpg") repeat;
+}
