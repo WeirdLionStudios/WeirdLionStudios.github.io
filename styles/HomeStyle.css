@@ -19,3 +19,26 @@
 	color:white;
 }
 /*End of header style*/
+
+/*Content style*/
+#home_page{
+	margin-left:50px;
+	margin-right:250px;
+}
+
+#home_page img{
+	float:left;
+	background:rgba(0,0,0,0.4);
+	border-bottom:1px solid rgba(0,0,0,0.4);
+	
+}
+
+#home_page p{
+	display:block;
+	color:#cccccc;
+	margin-top:125px;
+	margin-left:375px;
+	font:16px verdana;
+	background:rgba(0,0,0,0.6);
+}
+/*End of content style*/
