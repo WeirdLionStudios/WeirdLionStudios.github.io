@@ -1,21 +1,77 @@
-/*Header style*/
-#home_header{
-	height:100px;
-	width:100%;
-	background:rgba(0,0,0,0.4);
-	border-bottom:1px solid rgba(0,0,0,0.4);
-	padding-top:20px;
+/*Content style*/
+#home_page{
+	position:absolute;
+	top:130px;
+	bottom:42px;
+	margin-left:50px;
+	margin-right:100px;
+	padding:20px;
 }
 
-#home_header h1{
+#home_page img{
+	margin-top:20px;
+	padding:10px;
+	border:1px solid rgba(0,0,0,0.5);
+	box-shadow:inset 0px -200px 100px rgba(0,0,0,0.6);
+	float:left;
+}
+
+#home_page p{
 	display:block;
-	margin:0px 400px 0px;
 	color:#cccccc;
-	margin-top:0px;
-	font:60px arial;
+	margin-top:20px;
+	margin-left:375px;
+	padding:50px 20px 50px;
+	font:16px verdana;
+	background:rgba(0,0,0,0.5);
+	height:80px;
+	border-left:2px solid rgba(0,0,0,0.5);
 }
 
-#home_header h1:hover{
-	color:white;
+#main_project{
+	position:relative;
+	top:0px;
+	left:325px;
+	height:126px;
+	margin-left:50px;
+	margin-right:325px;
+	padding:0px;
+	background:rgba(0,0,0,0.5);
+	border-left:2px solid rgba(0,0,0,0.5);
 }
-/*End of header style*/
+
+#main_project h1{
+	position:absolute;
+	margin-left:10px;
+	font:20px verdana;
+	color:#cccccc;
+	text-decoration:underline;
+	padding-top:0px;
+}
+
+#main_project #project_box{
+	border:1px solid rgba(0,0,0,0.4);
+	position:absolute;
+	left:10px;
+	right:10px;
+	margin-top:60px;
+	padding-top:0px;
+	padding-left:0px;
+	height:30px;
+}
+
+#main_project #project_box h2{
+	margin-top:5px;
+	font:16px verdana;
+	color:#cccccc;
+}
+
+#progress_bar_bg{
+	position:absolute;
+	top:5px;
+	left:130px;
+	height:20px;
+	width:600px;
+	background:rgba(255,255,255,0.5);
+}
+/*End of content style*/
