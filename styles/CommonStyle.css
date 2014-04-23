@@ -2,7 +2,7 @@
 
 body{
 	margin:0px;
-	background:url("../resources/images/InfoWood.jpg") repeat;
+	background:url("../resources/images/HexGrid.jpg") repeat;
 }
 
 /*Header style*/
@@ -10,17 +10,16 @@ body{
 #header{
 	height:80px;
 	line-height:10px;
-	width:100%;
-	background:rgba(0,0,0,0.4);
-	border-bottom:1px solid rgba(0,0,0,0.5);
 }
 
 #header h1{
 	display:block;
-	margin:0px 400px 0px;
 	color:#cccccc;
 	margin-top:0px;
 	font:60px arial;
+	width:100%;
+	background:rgba(0,0,0,0.6);
+	border-bottom:1px solid rgba(0,0,0,0.6);
 }
 
 #header h1:hover{
